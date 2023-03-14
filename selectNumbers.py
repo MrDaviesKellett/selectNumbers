@@ -11,11 +11,10 @@ def selectEven(inList):
 def selectOdd(inList):
     '''Given a list of numbers, return a new list with all of the even numbers removed'''
     outList = inList
-    return inList
+    return outList
 
 def selectMultiples(inList, multiple):
     '''Given a list of numbers, return a new list containing only multiples of the parameter multiple'''
-    outList = inList
     return inList
 
 if __name__ == "__main__":
