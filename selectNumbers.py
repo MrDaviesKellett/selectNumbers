@@ -3,7 +3,7 @@
 # Do not modify this function name or parameters
 def selectEven(inList):
     '''Given a list of numbers, return a new list with all of the odd numbers removed'''
-    outList = inList.copy()
+    outList = inList
     # fill this function with your logic to solve the challenge
 
     return outList
