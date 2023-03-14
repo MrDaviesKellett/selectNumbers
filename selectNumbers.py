@@ -14,11 +14,11 @@ def selectOdd(inList):
     return inList
 
 def selectMultiples(inList, multiple):
-    '''Given a list of numbers, return the same list '''
+    '''Given a list of numbers, return a new list containing only multiples of the parameter multiple'''
     outList = inList
     return inList
 
-if __name__ == "__main":
+if __name__ == "__main__":
     assert selectEven([1,2,3,4,5]) == [2,4]
     assert selectOdd([1,2,3,4,5]) == [1,3,5]
     assert selectMultiples([1,2,3,4,5],3) == [3]
